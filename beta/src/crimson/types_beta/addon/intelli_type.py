@@ -13,5 +13,5 @@ class IntelliHolder(Generic[T]):
             - but also it's inner type.
 
     Example:
-        - [link](https://github.com/crimson206/types/blob/main/example/intelli_type/intelli_type.ipynb) to example notebook
+        - [link](https://github.com/crimson206/types/blob/main/example/addon/intelli_type.ipynb.md) to example
     """
