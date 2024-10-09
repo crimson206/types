@@ -217,7 +217,7 @@ options = Options(
 )
 
 dependencies = """
-
+pydantic
 """
 
 
