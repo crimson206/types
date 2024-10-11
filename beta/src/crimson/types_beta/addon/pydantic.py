@@ -1,4 +1,4 @@
-from typing import Any, Generator
+from typing import Any, Generator, cast, Type
 from pydantic import create_model
 
 
@@ -17,7 +17,7 @@ class PydanticCompatible:
     def validate(cls, value: Any, _):
         try:
             DynamicTester = create_model(
-                "DynamicTester", base=(cls.__orig_bases__[cls.validate_base_index], ...)
+                "DynamicTester", base=(cls.__bases__[cls.validate_base_index], ...)
             )
         except AttributeError as e:
             e
@@ -26,4 +26,4 @@ class PydanticCompatible:
             )
 
         DynamicTester(base=value)
-        return cls(value)
+        return cast(Type[cls], value)  # type: ignore
