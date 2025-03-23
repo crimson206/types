@@ -1,2 +1,4 @@
 crimson-file-loader
 pip-tools
+flake8
+black

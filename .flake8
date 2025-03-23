@@ -16,3 +16,4 @@ ignore = E501, W605, E203, W503
 per-file-ignores =
     generate_toml.py: E305, E302
     __init__.py: F401
+    test_*: E402
