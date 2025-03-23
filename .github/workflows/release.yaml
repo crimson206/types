@@ -15,7 +15,6 @@ jobs:
           python-version: 3.9
       - name: Build and Publish
         run: |
-          cd beta
           python -m pip install --upgrade pip
           pip install build twine
           python -m build
