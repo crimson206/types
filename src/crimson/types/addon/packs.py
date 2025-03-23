@@ -1,6 +1,6 @@
-from crimson.types_beta.addon.intelli_type import IntelliHolder, T
-from crimson.types_beta.addon.pydantic import PydanticCompatible
-from crimson.types_beta.addon.annotated import annotated_type
+from crimson.types.addon.intelli_type import IntelliHolder, T
+from crimson.types.addon.pydantic import PydanticCompatible
+from crimson.types.addon.annotated import annotated_type
 
 
 @annotated_type

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crimson-types"
-version = "0.1.0"
+version = "0.1.6"
 description = "Your package description."
 readme = "README.md"
 authors = [
@@ -35,5 +35,5 @@ dependencies = [
 requires-python = ">=3.9"
 
 [project.urls]
-"Homepage" = "https://github.com/crimson206/types"
-"Bug Tracker" = "https://github.com/crimson206/types/issues"
+"Homepage" = "https://github.com/crimson206/types-beta"
+"Bug Tracker" = "https://github.com/crimson206/types-beta/issues"

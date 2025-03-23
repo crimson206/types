@@ -6,8 +6,8 @@ The same functionality can be implemented in different ways,
 to provide more options, and open the more various and wider possibilities.
 """
 
-from crimson.types_beta.addon.intelli_type import IntelliHolder, T
-from crimson.types_beta.addon.annotated import AnnotatedType
+from crimson.types.addon.intelli_type import IntelliHolder, T
+from crimson.types.addon.annotated import AnnotatedType
 
 
 class IntRange(AnnotatedType, int, IntelliHolder[T]):
